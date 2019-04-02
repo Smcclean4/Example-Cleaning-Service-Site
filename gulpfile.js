@@ -39,6 +39,14 @@ function mini() {
     .pipe(gulpIf('*.css', cssnano()))
     .pipe(gulp.dest('dist'))
 }
+// minifying images
+function images () {
+  return gulp.src('project/images/**/*.+(png | jpg | gif | svg)')
+    .pipe(cache(imagemin({
+      interlaced: true
+    })))
+    .pipe(gulp.dest('dist/images'))
+}
 // tasks
-gulp.task('useref', gulp.series(clean, mini));
+gulp.task('useref', gulp.series(clean, gulp.parallel(mini, images)));
 gulp.task('watch', gulp.series(browser_sync, watch_files));
