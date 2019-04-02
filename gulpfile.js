@@ -8,6 +8,7 @@ const gulpIf = require('gulp-if');
 const useref = require('gulp-useref');
 const del = require('del');
 const dest = require('dest');
+const cache = require('gulp-cache');
 // browser sync files for time
 function browser_sync(done) {
   browserSync.init( {
@@ -31,7 +32,7 @@ function reload(done) {
 }
 // del for fresh files
 function clean() {
-  return del(['/dist']);
+  return del.sync('dist');
 }
 // minification for faster browser load speeds
 function mini() {
