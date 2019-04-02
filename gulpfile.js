@@ -3,11 +3,8 @@ const browserSync = require('browser-sync');
 const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify');
-const rename = require('gulp')
 const gulpIf = require('gulp-if');
 const useref = require('gulp-useref');
-const del = require('del');
-const dest = require('dest');
 const cache = require('gulp-cache');
 // browser sync files for time
 function browser_sync(done) {
