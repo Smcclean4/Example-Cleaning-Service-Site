@@ -1,0 +1,15 @@
+/* Header/Footer Styling */
+#header {
+  background-color:whitesmoke;
+  height:50px;
+  width:auto;
+  max-width:100%;
+}
+#footer {
+  background-color:whitesmoke;
+  text-align:right;
+  padding:10px 10px;
+  height:40px;
+  width:auto;
+  max-width:100%;
+}
