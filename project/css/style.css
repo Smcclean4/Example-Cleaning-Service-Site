@@ -114,9 +114,8 @@ ul {
 #m-statement-text {
   font-size:2.2em;
 }
-.image-container1, .image-container2, #m-statement, #home-button {
-  /* display:none*/
-  /* ABOVE FOR ANIMATION */
+#bg {
+  display:none;
 }
 /* END */
 
