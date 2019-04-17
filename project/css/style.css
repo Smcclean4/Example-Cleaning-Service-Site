@@ -114,9 +114,9 @@ ul {
 #m-statement-text {
   font-size:2.2em;
 }
-#bg {
+/*#bg {
   display:none;
-}
+}*/
 /* END */
 
 /* Home Button */
@@ -140,3 +140,56 @@ ul {
   color:white;
 }
 /* END */
+/****
+
+END OF INDEX.HTML Page
+
+****/
+
+/* CAROUSEL BEGINNING*/
+#home-bg {
+  background-color:grey;
+  background-size: cover;
+  height:100%;
+  min-height:890px;
+  max-height:890px;
+  width:100%;
+  max-width:auto;
+}
+/* carousel contents */
+#woman {
+  width:650px;
+  height:750px;
+}
+#woman-container {
+  text-align:center;
+  height:auto;
+  width:auto;
+}
+
+/* end */
+
+/* woman tabs */
+.tabs1, .tabs2, .tabs3, .tabs4, .tabs5, .tabs6 {
+  position:relative;
+  color:pink;
+  font-size:2.2em;
+  font-family:
+}
+
+ .tabs1:hover, .tabs2:hover, .tabs3:hover, .tabs4:hover, .tabs5:hover, .tabs6:hover {
+  text-decoration:none;
+  color:white;
+}
+
+.tabs1:active, .tabs2:active, .tabs3:active, .tabs4:active, .tabs5:active, .tabs6:active {
+  text-decoration:none;
+}
+
+.tabs1 {
+  left:650px;
+  top:150px;
+}
+/* end */
+
+/* END*/
