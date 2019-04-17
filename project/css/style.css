@@ -166,30 +166,117 @@ END OF INDEX.HTML Page
   height:auto;
   width:auto;
 }
-
 /* end */
 
 /* woman tabs */
 .tabs1, .tabs2, .tabs3, .tabs4, .tabs5, .tabs6 {
   position:relative;
   color:pink;
-  font-size:2.2em;
-  font-family:
+  font-size:3.2em;
+  font-family:'Dancing Script', serif;
 }
-
  .tabs1:hover, .tabs2:hover, .tabs3:hover, .tabs4:hover, .tabs5:hover, .tabs6:hover {
   text-decoration:none;
   color:white;
 }
-
-.tabs1:active, .tabs2:active, .tabs3:active, .tabs4:active, .tabs5:active, .tabs6:active {
+.tabs1:, .tabs2:active, .tabs3:active, .tabs4:active, .tabs5:active, .tabs6:active {
   text-decoration:none;
+  color:white;
 }
-
 .tabs1 {
-  left:650px;
-  top:150px;
+  left:500px;
+  top:400px;
+}
+.tabs2 {
+  left:370px;
+  top:250px;
+}
+.tabs3 {
+  left:300px;
+  top:100px;
+}
+.tabs4 {
+  left:500px;
+  top:100px;
+}
+.tabs5 {
+  top:250px;
+  left:500px;
+}
+.tabs6 {
+  left:400px;
+  top:400px;
+}
+/* end*/
+
+/* talking bubble */
+.shadow {
+  font-size:16.0em;
+  color:pink;
+  z-index:10000;
+  margin:0;
+}
+.chat {
+  font-size:15.0em;
+  position:relative;
+  right:220px;
+  bottom:4px;
+  z-index: 0;
+  color:white;
+}
+#chat {
+  color:pink;
+  font-family:'Dancing Script', serif;
+  font-size:2.5em;
+  text-align:center;
+  position:relative;
+  right:100px;
+  bottom:150px;
+}
+#chat-bubble {
+  bottom:350px;
+  left:1150px;
+  position:relative;
+  display:inline-block;
 }
 /* end */
 
 /* END*/
+
+/* ABOUT US */
+  #aboutus-bg {
+    background-color:grey;
+    background-size: cover;
+    height:100%;
+    min-height:890px;
+    max-height:2500px;
+    width:100%;
+    max-width:auto;
+  }
+  #aboutus1 {
+    text-align:center;
+    margin:100px 100px;
+  }
+  #aboutus2 {
+    text-align:center;
+    margin:100px 100px;
+  }
+  #aboutus1image, #aboutus2image {
+    height:400px;
+    width:300px;
+    display:inline-block;
+  }
+   .aboutus-text {
+     background-color:rgba(245, 245, 245, 0.1);
+     padding:10px;
+     border-radius: 25px;
+     font-size:2.5em;
+     display:inline-block;
+     text-align:center;
+     vertical-align: middle;
+     margin:0 10% 0 10%;
+     line-height: 50px;
+     color:pink;
+     font-family:'Dancing Script', serif;
+   }
+/* END */
