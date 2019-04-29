@@ -337,6 +337,13 @@ END OF INDEX.HTML Page
 }
 /* END */
 
+/* TABLE */
+table {
+  margin-bottom:4%;
+  margin-top:4%;
+}
+/* END */
+
 /* EMPLOYMENT */
 #employment-bg {
   background-color:grey;
@@ -396,9 +403,97 @@ END OF INDEX.HTML Page
   padding:10px;
 }
 /* END */
+
+/* TEXT STYLING */
 .app-text {
+  color:pink;
+  font-style: italic;
+  font-size:1.5em;
+  padding-left:20%;
+}
+.c-text {
   color:limegreen;
-  font-family:sans-serif;
+  font-style: italic;
+  font-size:1.0em;
+}
+.inputs {
+  margin-left:80px;
+  font-size:0.8em;
+  color:limegreen;
+}
+.location {
+  width:125px;
+  margin-right:20px;
+}
+.employment-range {
+  margin-right:20px;
+  width:100px;
+}
+.address2 {
+  margin-left:231px;
+  margin-top:10px;
+}
+#years {
+  width:50px;
+}
+#dl-state {
+  width:125px;
+  margin-left:20px;
+}
+tr {
+  height:75px;
+}
+#employment-text {
+  text-align:center;
+  font-size:1.5em;
+  color:grey;
+}
+.reason {
+  width:500px;
+}
+#employment-footer {
+  font-size:1.5em;
+  text-align:center;
+}
+#resume {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:1%;
+}
+textarea {
+  width:350px;
+  height:150px;
+}
+/* END */
+/* REFERENCES */
+#reference-text {
+  text-align:center;
   font-size:1.5em;
 }
+/* END */
+/* CERTIFICATION */
+#certification {
+  width:1500px;
+  margin:0 auto;
+}
+#input, #date {
+  display:inline-block;
+}
+.certification-text, #certification-footer, #signature, #signature-header {
+  text-align:center;
+  font-size:1.25em;
+  margin-bottom:2%;
+}
+#submition {
+  padding:10px 60px;
+  border-radius: 25px 25px;
+  margin-bottom:2%;
+  color:white;
+  background-color:pink;
+  border:3px solid white;
+}
+#submition:hover {
+  transform: scale(1.1);
+}
+/* END */
 /* END */
