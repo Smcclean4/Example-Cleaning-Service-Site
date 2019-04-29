@@ -557,4 +557,29 @@ textarea {
 }
 /* END */
 
+/* SERVICES */
+#services-bg {
+  background-color:grey;
+  background-size: cover;
+  height:100%;
+  min-height:890px;
+  width:100%;
+  max-width:auto;
+}
+#service-video {
+  margin-top:3%;
+  text-align:center;
+  margin-bottom:3%;
+}
+#video {
+  height:400px;
+  width:850px;
+}
+#service-prices {
+  background-color:rgba(245, 245, 245, 0.4);
+  border-radius: 25px 25px;
+  padding:0;
+}
+/* END */
+
 /* END */
