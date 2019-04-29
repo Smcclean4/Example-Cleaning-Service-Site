@@ -495,5 +495,66 @@ textarea {
 #submition:hover {
   transform: scale(1.1);
 }
+#three-chicks {
+  color:pink;
+}
 /* END */
+
+/* APPOINTMENT */
+#appointment-bg {
+  background-color:grey;
+  background-size: cover;
+  height:100%;
+  min-height:890px;
+  width:100%;
+  max-width:auto;
+}
+#appointment-details, #three-chicks-section {
+  display:inline-block;
+  vertical-align: middle;
+  margin:8% 2% 5% 1%;
+}
+#appointment-details {
+  background-color:rgba(245, 245, 245, 0.4);
+  border-radius: 25px 25px;
+  padding:0;
+}
+#three-chicks-image {
+  height:650px;
+  width:600px;
+}
+#date-picker {
+  height:50px;
+  width:240px;
+  font-size:1.2em;
+}
+#app-name, #app-email, #app-number, #app-date {
+  margin:50px 100px;
+  color:limegreen;
+  font-style: italic;
+}
+#app-header {
+  text-align:center;
+  font-size:3.0em;
+  color:pink;
+  font-family: 'Dancing Script', sans-serif;
+  margin:10px;
+}
+#book-button {
+  padding:10px 60px;
+  border-radius: 25px 25px;
+  margin-bottom:2%;
+  color:white;
+  background-color:pink;
+  border:3px solid white;
+}
+#book-button:hover {
+  transform: scale(1.1);
+}
+#app-button {
+  text-align:center;
+  margin-bottom:3%;
+}
+/* END */
+
 /* END */
