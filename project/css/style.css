@@ -582,4 +582,48 @@ textarea {
 }
 /* END */
 
+/* REVISIONS */
+#review-bg {
+  background-color:grey;
+  background-size: cover;
+  height:100%;
+  min-height:890px;
+  width:100%;
+  max-width:auto;
+}
+#comment-section {
+  background-color:rgba(245, 245, 245, 0.4);
+  border-radius: 25px 25px;
+  padding:20px;
+  width:100%;
+  height:auto;
+  color:pink;
+  max-width:550px;
+}
+#past-reviews {
+  background-color:rgba(245, 245, 245, 0.4);
+  border-radius: 25px 25px;
+  padding:0;
+}
+#comment-section, #three-chicks-woman {
+  display:inline-block;
+  vertical-align: middle;
+}
+#three-chicks-woman-image {
+  height:620px;
+  width:550px;
+}
+#comment-heading {
+  font-size:3.0em;
+  font-family: 'Dancing Script', sans-serif;
+}
+.comment-text {
+  font-size:1.5em;
+}
+.comm-name {
+  font-size:2.0em;
+  font-family: 'Dancing Script', sans-serif;
+}
+/* END */
+
 /* END */
