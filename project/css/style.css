@@ -6,19 +6,26 @@ input {
 textarea {
   border-radius: 10px 10px;
 }
+hr {
+  border: 1px solid grey;
+  width:1500px;
+}
 #header {
   background-color:whitesmoke;
+  box-shadow: 0 0 20px 0 black;
   height:50px;
-  width:auto;
+  width:100%;
   max-width:100%;
   text-align:right;
+  position:fixed;
+  z-index:1000;
 }
 #three-chicks-cleaning {
   text-align:center;
   position:absolute;
   left:785px;
   top:5px;
-  color:pink;
+  color:hotpink;
   font-size:2.2em;
   font-family: 'Dancing Script', sans-serif;
 }
@@ -29,8 +36,17 @@ textarea {
   border-left:1px solid black;
   padding-left:10px;
 }
+.background-image {
+  position:absolute;
+  z-index:-1;
+  opacity:0.9;
+  width:100%;
+  height:100%;
+  min-height:890px;
+  position:fixed;
+  backgroun-size:cover;
+}
 #bg{
-  background-image: url('https://i.imgur.com/BrLHI25.png');
   background-size: contain;
   height:100%;
   min-height:890px;
@@ -56,24 +72,24 @@ textarea {
 }
 .fa-twitter {
   font-size: 3.5em;
-  color:pink;
+  color:hotpink;
   margin-right:25px;
   background-color:white;
   padding:30px 20px;
   border-radius: 100px 75px 100px;
-  border:5px solid pink;
+  border:5px solid hotpink;
 }
 .fa-facebook {
   font-size:3.5em;
-  color:pink;
+  color:hotpink;
   margin-right:25px;
   background-color:white;
   padding:30px;
   border-radius:100px 75px 100px;
-  border:5px solid pink;
+  border:5px solid hotpink;
 }
 .f-heading {
-  color:pink;
+  color:hotpink;
   font-family: cursive;
 }
 .pd-text {
@@ -119,15 +135,17 @@ ul {
   width:300px;
 }
 #m-statement {
-  color:pink;
+  color:hotpink;
   margin-top:5%;
   text-align:center;
-  background-color:rgba(245, 245, 245, 0.1);
-  border-radius: 5px;
+  background-color:rgba(245, 245, 245, 0.8);
+  padding:20px;
+  border-radius: 25px 25px;
   margin-bottom:3%;
 }
 #m-statement-text {
   font-size:2.2em;
+  text-shadow: 0.5px 0.5px black;
 }
 /*#bg {
   display:none;
@@ -136,12 +154,14 @@ ul {
 
 /* Home Button */
 #home-button {
-  background-color:pink;
+  background-color:hotpink;
   border-radius: 25px 25px;
   border: 3px solid white;
   height:50px;
   width:150px;
-  margin:0 auto;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:3%;
   text-align:center;
 }
 #home-button:hover {
@@ -163,7 +183,6 @@ END OF INDEX.HTML Page
 
 /* CAROUSEL BEGINNING*/
 #home-bg {
-  background-color:grey;
   background-size: cover;
   height:100%;
   min-height:890px;
@@ -186,7 +205,8 @@ END OF INDEX.HTML Page
 /* woman tabs */
 .tabs1, .tabs2, .tabs3, .tabs4, .tabs5, .tabs6 {
   position:relative;
-  color:pink;
+  color:hotpink;
+  text-shadow: 2px 2px black;
   font-size:3.2em;
   font-family:'Dancing Script', serif;
 }
@@ -194,7 +214,7 @@ END OF INDEX.HTML Page
   text-decoration:none;
   color:white;
 }
-.tabs1:, .tabs2:active, .tabs3:active, .tabs4:active, .tabs5:active, .tabs6:active {
+.tabs1:active, .tabs2:active, .tabs3:active, .tabs4:active, .tabs5:active, .tabs6:active {
   text-decoration:none;
   color:white;
 }
@@ -227,7 +247,7 @@ END OF INDEX.HTML Page
 /* talking bubble */
 .shadow {
   font-size:16.0em;
-  color:pink;
+  color:hotpink;
   z-index:10000;
   margin:0;
 }
@@ -240,7 +260,7 @@ END OF INDEX.HTML Page
   color:white;
 }
 #chat {
-  color:pink;
+  color:hotpink;
   font-family:'Dancing Script', serif;
   font-size:2.5em;
   text-align:center;
@@ -260,7 +280,6 @@ END OF INDEX.HTML Page
 
 /* ABOUT US */
   #aboutus-bg {
-    background-color:grey;
     background-size: cover;
     height:100%;
     min-height:890px;
@@ -282,7 +301,7 @@ END OF INDEX.HTML Page
     display:inline-block;
   }
    .aboutus-text {
-     background-color:rgba(245, 245, 245, 0.1);
+     background-color:rgba(346, 346, 346, 0.8);
      padding:10px;
      border-radius: 25px;
      font-size:2.5em;
@@ -291,14 +310,14 @@ END OF INDEX.HTML Page
      vertical-align: middle;
      margin:0 10% 0 10%;
      line-height: 50px;
-     color:pink;
+     color:hotpink;
      font-family:'Dancing Script', serif;
+     text-shadow: 0.2px 0.2px grey;
    }
 /* END */
 
 /* CONTACT US */
 #contactus-bg {
-  background-color:grey;
   background-size: cover;
   height:100%;
   min-height:890px;
@@ -306,7 +325,7 @@ END OF INDEX.HTML Page
   max-width:auto;
 }
 #social-box {
-  background-color:rgba(245, 245, 245, 0.4);
+  background-color:rgba(245, 245, 245, 0.8);
   border-radius: 50px 50px;
   width:1200px;
   height:auto;
@@ -318,9 +337,10 @@ END OF INDEX.HTML Page
 }
 .social-statement {
   text-align:center;
-  color:pink;
+  color:hotpink;
   font-size:2.7em;
   font-family: 'Dancing Script', serif;
+  text-shadow: 0.5px 0.5px black;
 }
 .social-heading {
   font-size:2.5em;
@@ -332,14 +352,15 @@ END OF INDEX.HTML Page
   word-spacing: 5px;
 }
 #facebook, #twitter, #phone-number, #email {
-  color:white;
+  color:grey;
 }
 #contact-heading {
-  color:pink;
+  color:hotpink;
   font-size:5.0em;
   font-family: 'Dancing Script', serif;
   text-align:center;
-  margin-top:1%;
+  margin-top:3%;
+  text-shadow: 2px 2px black;
 }
 /* END */
 
@@ -352,7 +373,6 @@ table {
 
 /* EMPLOYMENT */
 #employment-bg {
-  background-color:grey;
   background-size: cover;
   height:100%;
   min-height:890px;
@@ -360,10 +380,10 @@ table {
   max-width:auto;
 }
 #employment-box {
-  margin-top:3%;
+  margin-top:5%;
   margin-right:auto;
   margin-left:auto;
-  background-color:rgba(245, 245, 245, 0.4);
+  background-color:rgba(245, 245, 245, 0.8);
   border-radius: 25px 25px;
   margin-bottom:3%;
   padding:0;
@@ -373,52 +393,54 @@ table {
 #application-header {
   font-size:4.0em;
   font-family:'Dancing Script', sans-serif;
-  color:pink;
+  color:hotpink;
   text-align:center;
+  text-shadow: 2px 2px black;
 }
 #pi-header {
   text-align:center;
   font-size:1.5em;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   padding:10px;
 }
 #emergency-header {
   text-align:center;
   font-size:1.5em;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   padding:10px;
 }
 #employment-header {
   text-align:center;
   font-size:1.5em;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   padding:10px;
 }
 #reference-header {
   text-align:center;
   font-size:1.5em;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   padding:10px;
 }
 #certification-header {
   text-align:center;
   font-size:1.5em;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   padding:10px;
 }
 /* END */
 
 /* TEXT STYLING */
 .app-text {
-  color:pink;
+  color:hotpink;
   font-style: italic;
   font-size:1.5em;
   padding-left:20%;
+  text-shadow: 0.5px 0.5px black;
 }
 .c-text {
   color:limegreen;
@@ -483,6 +505,7 @@ textarea {
   color:grey;
 }
 /* END */
+
 /* CERTIFICATION */
 #certification {
   width:1500px;
@@ -501,20 +524,20 @@ textarea {
   border-radius: 25px 25px;
   margin-bottom:2%;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   border:3px solid white;
 }
 #submition:hover {
   transform: scale(1.1);
 }
 #three-chicks {
-  color:pink;
+  color:hotpink;
+  text-shadow: 0.5px 0.5px black;
 }
 /* END */
 
 /* APPOINTMENT */
 #appointment-bg {
-  background-color:grey;
   background-size: cover;
   height:100%;
   min-height:890px;
@@ -527,7 +550,7 @@ textarea {
   margin:8% 2% 5% 1%;
 }
 #appointment-details {
-  background-color:rgba(245, 245, 245, 0.4);
+  background-color:rgba(245, 245, 245, 0.8);
   border-radius: 25px 25px;
   padding:0;
 }
@@ -549,9 +572,10 @@ textarea {
 #app-header {
   text-align:center;
   font-size:3.0em;
-  color:pink;
+  color:hotpink;
   font-family: 'Dancing Script', sans-serif;
   margin:10px;
+  text-shadow: 2px 2px black;
 }
 #book-button {
   padding:10px 60px;
@@ -559,7 +583,7 @@ textarea {
   margin-bottom:2%;
   color:white;
   font-size:1.4em;
-  background-color:pink;
+  background-color:hotpink;
   border:3px solid white;
 }
 #book-button:hover {
@@ -573,7 +597,6 @@ textarea {
 
 /* SERVICES */
 #services-bg {
-  background-color:grey;
   background-size: cover;
   height:100%;
   min-height:890px;
@@ -581,7 +604,7 @@ textarea {
   max-width:auto;
 }
 #service-video {
-  margin-top:3%;
+  margin-top:9%;
   text-align:center;
   margin-bottom:3%;
 }
@@ -598,7 +621,6 @@ textarea {
 
 /* REVISIONS */
 #review-bg {
-  background-color:grey;
   background-size: cover;
   height:100%;
   min-height:890px;
@@ -606,19 +628,19 @@ textarea {
   max-width:auto;
 }
 #comment-section {
-  background-color:rgba(245, 245, 245, 0.4);
+  background-color:rgba(245, 245, 245, 0.8);
   border-radius: 25px 25px;
   padding:20px;
   width:100%;
   height:auto;
-  color:pink;
+  color:hotpink;
   max-width:550px;
 }
-#past-reviews {
-  background-color:rgba(245, 245, 245, 0.4);
+/*#past-reviews {
+  background-color:rgba(245, 245, 245, 0.8);
   border-radius: 25px 25px;
   padding:0;
-}
+}*/
 #comment-section, #three-chicks-woman {
   display:inline-block;
   vertical-align: middle;
@@ -631,14 +653,17 @@ textarea {
 #comment-heading {
   font-size:3.0em;
   font-family: 'Dancing Script', sans-serif;
+  text-shadow: 1px 1px black;
 }
 .comment-text {
   font-size:1.5em;
+  text-shadow: 0.5px 0.5px black;
 }
 .comm-name {
   font-size:2.0em;
   font-family: sans-serif;
   padding-top:20px;
+  text-shadow: 0.5px 0.5px black;
 }
 .comm-subheading {
   font-size:0.7em;
@@ -659,12 +684,41 @@ textarea {
   padding:10px 60px;
   border-radius: 25px 25px;
   color:white;
-  background-color:pink;
+  background-color:hotpink;
   border:3px solid white;
 }
 #review-button {
   transform: scale(1.1);
 }
 /* END */
+
+/* VALIDATION PAGES */
+.validation {
+  background-color:white;
+  background-size: cover;
+  height:100%;
+  min-height:890px;
+  width:100%;
+  max-width:auto;
+}
+.validation-text {
+  text-align:center;
+  margin:10% auto 0 auto;
+}
+.validation-header {
+  color:grey;
+  font-size:3.0em;
+  font-family: sans-serif;
+}
+.validation-sub-text {
+  font-size:1.5em;
+  color:hotpink;
+  font-style: italic;
+}
+.three-chicks-logo {
+  height:500px;
+  width:400px;
+}
+/* END*/
 
 /* END */
