@@ -1,4 +1,11 @@
+@import 'responsive.css';
 /* Header/Footer Styling */
+input {
+  border-radius: 10px 10px;
+}
+textarea {
+  border-radius: 10px 10px;
+}
 #header {
   background-color:whitesmoke;
   height:50px;
@@ -23,9 +30,8 @@
   padding-left:10px;
 }
 #bg{
-  /*background-image: url('https://i.imgur.com/BrLHI25.png');*/
-  background-color:grey;
-  background-size: cover;
+  background-image: url('https://i.imgur.com/BrLHI25.png');
+  background-size: contain;
   height:100%;
   min-height:890px;
   max-height:890px;
@@ -355,10 +361,13 @@ table {
 }
 #employment-box {
   margin-top:3%;
+  margin-right:auto;
+  margin-left:auto;
   background-color:rgba(245, 245, 245, 0.4);
   border-radius: 25px 25px;
   margin-bottom:3%;
   padding:0;
+  width:1700px;
 }
 /* HEADERS */
 #application-header {
@@ -454,11 +463,13 @@ tr {
 #employment-footer {
   font-size:1.5em;
   text-align:center;
+  color:grey;
 }
 #resume {
   margin-left:auto;
   margin-right:auto;
   margin-bottom:1%;
+  color:grey;
 }
 textarea {
   width:350px;
@@ -469,6 +480,7 @@ textarea {
 #reference-text {
   text-align:center;
   font-size:1.5em;
+  color:grey;
 }
 /* END */
 /* CERTIFICATION */
@@ -525,13 +537,14 @@ textarea {
 }
 #date-picker {
   height:50px;
-  width:240px;
+  width:250px;
   font-size:1.2em;
 }
 #app-name, #app-email, #app-number, #app-date {
   margin:50px 100px;
   color:limegreen;
   font-style: italic;
+  font-size:1.2em;
 }
 #app-header {
   text-align:center;
@@ -545,6 +558,7 @@ textarea {
   border-radius: 25px 25px;
   margin-bottom:2%;
   color:white;
+  font-size:1.4em;
   background-color:pink;
   border:3px solid white;
 }
@@ -608,6 +622,7 @@ textarea {
 #comment-section, #three-chicks-woman {
   display:inline-block;
   vertical-align: middle;
+  margin-top:10%;
 }
 #three-chicks-woman-image {
   height:620px;
@@ -622,7 +637,33 @@ textarea {
 }
 .comm-name {
   font-size:2.0em;
-  font-family: 'Dancing Script', sans-serif;
+  font-family: sans-serif;
+  padding-top:20px;
+}
+.comm-subheading {
+  font-size:0.7em;
+  font-style: italic;
+  color:limegreen;
+  font-family: none;
+  padding-left:50px;
+}
+#comm-review {
+  font-size:2.0em;
+}
+#comm-button {
+  text-align:center;
+  margin-bottom:1%;
+  margin-top:3%;
+}
+#review-button {
+  padding:10px 60px;
+  border-radius: 25px 25px;
+  color:white;
+  background-color:pink;
+  border:3px solid white;
+}
+#review-button {
+  transform: scale(1.1);
 }
 /* END */
 

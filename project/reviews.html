@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Three Chicks Cleaning Service</title>
-    <!--build:css css/main.min.css-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
-    <!--endbuild-->
-  </head>
-  <body>
-    <div id='header'>
-      <p id="three-chicks-cleaning">Three Chicks Cleaning Service</p>
-      <a href="#"><i id="help" class="fa fa-phone-square"></i></a>
-    </div>
-<!-- CONTENT BELOW -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Three Chicks Cleaning Service</title>
+  <!--build:css css/main.min.css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+  <!--endbuild-->
+</head>
+
+<body>
+  <div id='header'>
+    <p id="three-chicks-cleaning">Three Chicks Cleaning Service</p>
+    <a href="tel:5623209350"><i id="help" class="fa fa-phone-square"></i></a>
+  </div>
+  <!-- CONTENT BELOW -->
   <div id="review-bg">
     <div class="container">
       <form>
 
         <div id="comment-section">
-        <p id="comment-heading">Leave a Review!</p>
-        <p class="comment-text">Our goal is to provide the best service possible
-          and that inculdes reading and improving our company through our reviews. Feedback
-        is greatly appreciated.</p>
-        <p class="comm-name">Name: <span class="comm-subheading"><input name="comm-name" type="text"></input></span></p>
-        <p class="comm-name">Email: <span class="comm-subheading"><input name="comm-email" type="email"></input></span></p>
-        <p class="comm-name">Leave a Review!</p>
-        <span class="comm-subheading"><textarea name="text-box"></textarea></span>
+          <p id="comment-heading">Leave a Review!</p>
+          <p class="comment-text">Our goal is to provide the best service possible and that inculdes reading and improving our company through our reviews. Feedback is greatly appreciated.</p>
+          <p class="comm-name">Name: <span class="comm-subheading"><input name="comm-name" type="text"></input></span></p>
+          <p class="comm-name">Email: <span class="comm-subheading"><input name="comm-email" type="email"></input></span></p>
+          <p class="comm-name">Leave a Review!</p>
+          <span class="comm-subheading"><textarea id="comm-review" name="review-text-box"></textarea></span>
+          <div id="comm-button">
+            <a href="#"><input id="review-button" type="submit" value="Submit"></input></a>
+          </div>
         </div>
 
         <div id="three-chicks-woman">
@@ -42,13 +45,11 @@
       </form>
     </div>
   </div>
-<!-- END -->
-    <div id="pre-footer">
+  <!-- END -->
+  <div id="pre-footer">
     <div id="page-details">
       <h3 class="f-heading">Page Details</h3>
-      <p class="pd-text">Three Chicks Cleaning Services is
-        family owned cleaning service based out of Los Angeles CA.
-        - Rep.</p>
+      <p class="pd-text">We value all critisizm good or bad. We put the customer first and adjust according to so!</p>
     </div>
 
     <div id="pf-navigation">
@@ -66,26 +67,28 @@
 
     <div id="legal">
       <h3 class="f-heading">Legal</h3>
-      <a class="pf-navs" href="#"><p class="pf-navs">Terms and Conditions</p></a>
-      <a class="pf-navs" href="#"><p class="pf-navs">License</p></a>
+      <a class="pf-navs" href="#">
+        <p class="pf-navs">Terms and Conditions</p>
+      </a>
+      <a class="pf-navs" href="#">
+        <p class="pf-navs">License</p>
+      </a>
     </div>
 
     <div id="f-socials">
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="http://www.facebook.com/ThreeChicksCleaningService"><i class="fa fa-facebook"></i></a>
+      <a href="http://www.twitter.com/3ChicksCleaning "><i class="fa fa-twitter"></i></a>
     </div>
 
-    </div>
+  </div>
 
-    <div id="footer">
-      <p id ="footer-text">@ S.L.M Three Chicks Cleaning Service <i>copyright</i> 2019</p>
-    </div>
-    <!--build:js js/main.min.js -->
-        <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
-        <script src="js/script.js" type="text/javascript"></script>
-    <!-- endbuild -->
-  </body>
+  <div id="footer">
+    <p id="footer-text">@ S.L.M Three Chicks Cleaning Service <i>copyright</i> 2019</p>
+  </div>
+  <!--build:js js/main.min.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
