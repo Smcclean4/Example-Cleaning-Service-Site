@@ -1,0 +1,144 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width:1500px) {
+#header #three-chicks-cleaning {
+  position:absolute;
+  left:540px;
+  top:5px;
+}
+ #bg .background-image {
+   max-width:1440px;
+ }
+ body #header {
+   max-width:1440px;
+ }
+ #home-bg .tabs1 {
+   top:400px;
+   left:250px;
+ }
+ #home-bg .tabs2 {
+   left:150px;
+   top:250px;
+ }
+ #home-bg .tabs3 {
+   left:75px;
+   top:100px;
+ }
+ #home-bg .tabs4 {
+   left:200px;
+   top:100px;
+ }
+ #home-bg .tabs5 {
+   top:250px;
+   left:250px;
+ }
+ #home-bg .tabs6 {
+   top:400px;
+   left:150px;
+ }
+ #home-bg #chat-bubble {
+   bottom:350px;
+   left:900px;
+ }
+ #aboutus-bg .aboutus-text {
+   width:664px;
+ }
+#employment-bg #employment-box {
+   width:1200px;
+ }
+ #employment-bg hr {
+   width:1100px;
+ }
+ #employment-bg #certification {
+   width:1100px;
+ }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1024px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+#header #three-chicks-cleaning {
+  margin-right:300px;
+}
+.container .image-container1 {
+  margin-right:20%;
+  margin-left:10%;
+}
+.container .images {
+  height:350px;
+  width:250px;
+}
+#pre-footer #page-details, #pf-navigation,#f-socials,#legal {
+  margin-right:20px;
+}
+#pre-footer #legal {
+  margin-left:-10%;
+}
+#pre-footer .fa-twitter{
+  font-size:3.0em;
+}
+#pre-footer .fa-facebook {
+  font-size:3.0em;
+}
+body #bg {
+  min-height:1050px;
+}
+#bg .background-image {
+  max-height:1050px;
+}
+#bg .image-container1, .image-container2 {
+  margin-top:20%;
+}
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  //CSS
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  //CSS
+
+}
