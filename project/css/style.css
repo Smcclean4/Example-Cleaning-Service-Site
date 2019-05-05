@@ -55,7 +55,7 @@ hr {
   height:275px;
   width:100%;
   background-color:black;
-  padding:20px 30px;
+  padding:20px 10px 0 10px;
 }
 #page-details , #pf-navigation{
   display:inline-block;
@@ -173,10 +173,152 @@ ul {
 }
 /* END */
 /****
+/* RESPONSIVE MEDIA QUERY */
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-END OF INDEX.HTML Page
+@media (min-width: 1281px) and (max-width:1500px) {
+  #three-chicks-cleaning {
+    margin-right:500px;
+  }
+  .background-image {
+    min-height:850px;
+    max-height:915px;
+  }
+}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
-****/
+@media (min-width: 1025px) and (max-width: 1280px) {
+#three-chicks-cleaning {
+  margin-right:300px;
+}
+.background-image {
+  max-height:890px;
+}
+.image-container1 {
+  margin-right:20%;
+  margin-left:10%;
+}
+.images {
+  height:350px;
+  width:250px;
+}
+#page-details, #pf-navigation {
+  margin-right:2%;
+}
+#f-socials, #legal {
+  margini-right:1%;
+}
+.fa-twitter, .fa-facebook {
+  font-size:2.5em;
+}
+}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #header {
+    height:70px;
+  }
+  #help {
+    font-size:4.0em;
+  }
+  #three-chicks-cleaning {
+    margin-right:200px;
+    font-size:3.0em;
+  }
+  .background-image {
+    max-height:1100px;
+    margin-top:70px;
+  }
+  .image-container1, .image-container2 {
+    margin-top:20%;
+  }
+  .image-container1 {
+    margin-right:50px;
+    margin-left:35px;
+    margin-bottom:3.8%;
+  }
+  .images {
+    height:400px;
+    width:300px;
+  }
+  #pre-footer {
+    padding:10px 0 0 15px;
+    height:280px;
+  }
+  #page-details, #pf-navigation {
+    margin-right:1%;
+  }
+  #f-socials, #legal {
+    margini-right:1%;
+  }
+  .fa-twitter, .fa-facebook {
+    font-size:2.5em;
+  }
+  .fa-twitter {
+    padding:25px 15px;
+  }
+  .fa-facebook {
+    padding:25px;
+  }
+  #m-statement {
+    margin-bottom:0;
+  }
+  #m-statement-text {
+    font-size:2.5em;
+  }
+  #home-button {
+    height:70px;
+    width:170px;
+    margin-bottom:3%;
+    margin-top:3%;
+    border: 5px solid white;
+  }
+  #btn1 {
+    font-size:1.7em;
+    margin-top:7px;
+  }
+  .pf-navs {
+    font-size:1.2em;
+    line-height:27px;
+  }
+  .pd-text {
+    font-size:1.3em;
+  }
+}
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/* What could have been */
+}
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media only screen (min-width: 481px) and (max-width: 767px) {
+/* LANDSCAPE ?? */
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+/* END OF QUERY */
 
 /* CAROUSEL BEGINNING*/
 #home-bg {
