@@ -48,5 +48,5 @@ function images () {
     .pipe(gulp.dest('dist/images'))
 }
 // tasks
-gulp.task('useref', gulp.series(clean, gulp.parallel(mini, images)));
+gulp.task('useref', gulp.series(gulp.parallel(mini, images)));
 gulp.task('watch', gulp.series(browser_sync, watch_files));
