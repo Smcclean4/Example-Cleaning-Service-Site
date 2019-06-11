@@ -231,19 +231,19 @@ ul {
   top:250px;
 }
 .tabs3 {
-  left:-70px;
+  left:-10px;
   top:100px;
 }
 .tabs4 {
-  left:100px;
+  left:250px;
   top:100px;
 }
 .tabs5 {
   top:250px;
-  left:125px;
+  left:175px;
 }
 .tabs6 {
-  left:50px;
+  left:150px;
   top:400px;
 }
 /* end*/
@@ -844,6 +844,92 @@ textarea {
   #chat-bubble {
     left:525px;
   }
+  #aboutus1image, #aboutus2image {
+    margin-top:5%;
+    margin-bottom:5%;
+  }
+  .aboutus-text {
+    padding:100px;
+  }
+  #contact-heading {
+    margin-top:15%;
+    font-size:8.0em;
+  }
+  #social-box {
+    margin-bottom:20%;
+    margin-top:10%;
+  }
+  .social-statement {
+    font-size:3.5em;
+  }
+  .social-heading {
+    font-size:3.0em;
+    text-shadow:2px 2px black;
+  }
+  .social-heading-text {
+    font-size:2.0em;
+  }
+  #employment-box {
+    margin-top:15%;
+  }
+  #application-header {
+    font-size:6.0em;
+  }
+  #pi-header, #emergency-header, #employment-header, #reference-header, #certification-header {
+    font-size:2.2em;
+  }
+  .app-text {
+    font-size:2.1em;
+    padding-left:10%;
+  }
+  .certification-text {
+    font-size:1.5em;
+  }
+  #appointment-details {
+    margin-top:20%;
+  }
+  #app-header {
+    font-size:4.0em;
+  }
+  #three-chicks-section {
+    width:100px;
+  }
+  #three-chicks-image {
+    height:540px;
+    width:490px;
+  }
+  #comment-section, #three-chicks-woman {
+    margin-top:20%;
+    margin-bottom:18%;
+    display:block;
+  }
+  #comment-section {
+    max-width:1000px;
+    padding:75px;
+  }
+  #comm-review {
+    width:700px;
+    height:300px;
+    font-size:3.0em;
+  }
+  #three-chicks-woman {
+    display:none;
+  }
+  #comment-heading {
+    font-size:5.0em;
+  }
+  .comment-text {
+    font-size:2.5em;
+  }
+  .comm-subheading {
+    font-size:0.9em;
+  }
+  .comm-name {
+    font-size:3.0em;
+  }
+  #review-button {
+    font-size:3.0em;
+  }
 }
 
 @media screen and (min-width:750px) and (max-width:1020px) {
@@ -951,6 +1037,96 @@ textarea {
   }
   #chat-bubble {
     left:300px;
+  }
+  #aboutus1image, #aboutus2image {
+    margin-top:5%;
+    margin-bottom:5%;
+  }
+  .aboutus-text {
+    padding:10px;
+  }
+  #contact-heading {
+    margin-top:15%;
+    font-size:8.0em;
+  }
+  #social-box {
+    margin-bottom:20%;
+    margin-top:10%;
+  }
+  .social-statement {
+    font-size:3.5em;
+  }
+  .social-heading {
+    font-size:3.0em;
+    text-shadow:2px 2px black;
+  }
+  .social-heading-text {
+    font-size:2.0em;
+  }
+  #employment-box {
+    margin-top:20%;
+  }
+  #application-header {
+    font-size:6.0em;
+  }
+  #pi-header, #emergency-header, #employment-header, #reference-header, #certification-header {
+    font-size:2.2em;
+  }
+  .app-text {
+    font-size:2.1em;
+    padding-left:10%;
+  }
+  .certification-text {
+    font-size:1.5em;
+  }
+ #three-chicks-section {
+    display:block;
+  }
+  #appointment-details {
+    margin-top:20%;
+    display:inline-block;
+  }
+  #app-header {
+    font-size:4.0em;
+  }
+  #three-chicks-section {
+    width:100px;
+  }
+  #three-chicks-image {
+    height:650px;
+    width:600px;
+  }
+  #comment-section, #three-chicks-woman {
+    margin-top:20%;
+    margin-bottom:18%;
+    display:block;
+  }
+  #comment-section {
+    max-width:1000px;
+    padding:25px;
+  }
+  #comm-review {
+    width:575px;
+    height:200px;
+    font-size:3.0em;
+  }
+  #three-chicks-woman {
+    display:none;
+  }
+  #comment-heading {
+    font-size:4.5em;
+  }
+  .comment-text {
+    font-size:2.0em;
+  }
+  .comm-subheading {
+    font-size:0.7em;
+  }
+  .comm-name {
+    font-size:2.5em;
+  }
+  #review-button {
+    font-size:2.0em;
   }
 }
 
@@ -1074,6 +1250,132 @@ textarea {
   .shadow {
     font-size:10.0em;
   }
+  #aboutus2 {
+    margin:100px 0;
+  }
+  #aboutus1image {
+    width:250px;
+    height:400px;
+  }
+  #aboutus2image {
+    height:275px;
+    width:275px;
+  }
+  #aboutus1image, #aboutus2image {
+    margin-top:5%;
+    margin-bottom:5%;
+  }
+  .aboutus-text {
+    padding:10px;
+    font-size:2.0em;
+  }
+  #contact-heading {
+    margin-top:20%;
+    font-size:5.0em;
+  }
+  #social-box {
+    margin-bottom:20%;
+    margin-top:10%;
+    width:auto;
+    max-width:100%;
+    padding:10px;
+  }
+  .social-statement {
+    font-size:2.5em;
+  }
+  .social-heading {
+    font-size:2.7em;
+    text-shadow:2px 2px black;
+  }
+  .social-heading-text {
+    font-size:1.3em;
+  }
+  #employment-box {
+    margin-top:30%;
+    margin-bottom:10%;
+  }
+  #application-header {
+    font-size:4.0em;
+  }
+  #pi-header, #emergency-header, #employment-header, #reference-header, #certification-header {
+    font-size:1.5em;
+  }
+  .app-text {
+    font-size:1.3em;
+    padding-left:2%;
+  }
+  .inputs {
+    margin-left:5px;
+  }
+  .certification-text {
+    font-size:1.5em;
+  }
+  .location {
+    width:75px;
+  }
+  .address1, .address2 {
+    width:90px;
+  }
+  textarea {
+    width:225px;
+    height:150px; 
+  }
+  .reason {
+    width:300px;
+  }
+  #three-chicks-section {
+    display:block;
+  }
+  #appointment-details {
+    margin-top:30%;
+    width:350px;
+    display:inline-block;
+  }
+  #app-header {
+    font-size:4.0em;
+  }
+  #three-chicks-section {
+    width:100px;
+  }
+  #three-chicks-image {
+    height:390px;
+    width:350px;
+  }
+  #app-name, #app-email, #app-number, #app-date {
+    margin:20px;
+  }
+  #comment-section, #three-chicks-woman {
+    margin-top:30%;
+    margin-bottom:18%;
+    display:block;
+  }
+  #comment-section {
+    max-width:1000px;
+    padding:15px;
+  }
+  #comm-review {
+    width:255px;
+    height:200px;
+    font-size:2.5em;
+  }
+  #three-chicks-woman {
+    display:none;
+  }
+  #comment-heading {
+    font-size:3.7em;
+  }
+  .comment-text {
+    font-size:1.6em;
+  }
+  .comm-subheading {
+    font-size:0.7em;
+  }
+  .comm-name {
+    font-size:2.0em;
+  }
+  #review-button {
+    font-size:1.5em;
+  }
 }
 
 @media screen and (max-width:360px) {
@@ -1195,6 +1497,135 @@ textarea {
   }
   .shadow {
     font-size:10.0em;
+  }
+  #aboutus2 {
+    margin:100px 0;
+  }
+  #aboutus1image {
+    width:250px;
+    height:400px;
+  }
+  #aboutus2image {
+    height:275px;
+    width:275px;
+  }
+  #aboutus1image, #aboutus2image {
+    margin-top:5%;
+    margin-bottom:5%;
+  }
+  .aboutus-text {
+    padding:10px;
+    font-size:2.0em;
+  }
+  #contact-heading {
+    margin-top:20%;
+    font-size:5.0em;
+  }
+  #social-box {
+    margin-bottom:20%;
+    margin-top:10%;
+    width:auto;
+    max-width:100%;
+    padding:10px;
+  }
+  .social-statement {
+    font-size:2.0em;
+  }
+  .social-heading {
+    font-size:2.9em;
+    text-shadow:2px 2px black;
+  }
+  .social-heading-text {
+    font-size:1.05em;
+  }
+  #employment-box {
+    margin-top:30%;
+    margin-bottom:10%;
+  }
+  #application-header {
+    font-size:4.0em;
+  }
+  #pi-header, #emergency-header, #employment-header, #reference-header, #certification-header {
+    font-size:1.5em;
+  }
+  .app-text {
+    font-size:1.3em;
+    padding-left:2%;
+  }
+  .inputs {
+    margin-left:5px;
+  }
+  .certification-text {
+    font-size:1.5em;
+  }
+  .location {
+    width:75px;
+  }
+  .address1 {
+    width:125px;
+  }
+  .address2 {
+    width:50px;
+  }
+  textarea {
+    width:225px;
+    height:150px; 
+  }
+  .reason {
+    width:275px;
+  }
+  #three-chicks-section {
+    display:block;
+  }
+  #appointment-details {
+    margin-top:35%;
+    width:290px;
+    display:inline-block;
+  }
+  #app-header {
+    font-size:4.0em;
+  }
+  #three-chicks-section {
+    width:100px;
+  }
+  #three-chicks-image {
+    height:350px;
+    width:300px;
+  }
+  #app-name, #app-email, #app-number, #app-date {
+    margin:10px;
+  }
+  #comment-section, #three-chicks-woman {
+    margin-top:30%;
+    margin-bottom:18%;
+    display:block;
+  }
+  #comment-section {
+    max-width:1000px;
+    padding:15px;
+  }
+  #comm-review {
+    width:200px;
+    height:200px;
+    font-size:1.5em;
+  }
+  #three-chicks-woman {
+    display:none;
+  }
+  #comment-heading {
+    font-size:3.0em;
+  }
+  .comment-text {
+    font-size:1.2em;
+  }
+  .comm-subheading {
+    font-size:0.9em;
+  }
+  .comm-name {
+    font-size:1.5em;
+  }
+  #review-button {
+    font-size:1.0em;
   }
 }
 

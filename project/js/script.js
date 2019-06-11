@@ -9,8 +9,4 @@ $('#appointment-bg').css('display', 'none').fadeIn(4000);
 $('#review-bg').css('display', 'none').fadeIn(5000);
 
 });
-
-
-
-
 // still working on it.
